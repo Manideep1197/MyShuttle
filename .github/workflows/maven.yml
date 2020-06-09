@@ -24,5 +24,5 @@ jobs:
       uses: Azure/webapps-deploy@v2
       with:
          app-name: Myshuttlegithub
-          publish-profile: ${{ENV.PUBLISH_PROFILE}}
-          package: ${{GITHUB.WORKSPACE}}/target/test-jars/bcpkix-jdk15on-1.48.jar
+         publish-profile: ${{ENV.PUBLISH_PROFILE}}
+         package: ${{GITHUB.WORKSPACE}}/target/test-jars/bcpkix-jdk15on-1.48.jar

@@ -26,3 +26,4 @@ jobs:
          app-name: Myshuttlegithub
          publish-profile: ${{secrets.PUBLISH_PROFILE}}
          package: ${{GITHUB.WORKSPACE}}/target/test-jars/bcpkix-jdk15on-1.48.jar
+
